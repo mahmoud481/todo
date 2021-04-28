@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.alert{
+  transition: background-color .5s, color .5s ;
+}
+.alert:hover{
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
